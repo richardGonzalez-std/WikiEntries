@@ -1,0 +1,15 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title%}
+{{title}}
+{%endblock%}
+
+{%block body%}
+{%if content%}
+{{content|safe}}
+<a href="edit/{{title}}" class="btn btn-warning">Edit</a>
+{%else%}
+<h1 class="error_msg">{{message|safe}}</h1>
+{%endif%}
+
+{%endblock%}

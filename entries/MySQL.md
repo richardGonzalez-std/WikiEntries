@@ -1,0 +1,1 @@
+MySQL is a query language to manage databases
