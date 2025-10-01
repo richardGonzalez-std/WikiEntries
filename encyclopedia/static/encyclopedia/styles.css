@@ -49,3 +49,6 @@ textarea {
 .error_msg{
     text-align: center;
 }
+.row{
+    background-color: rgba(0,0,0,0.2);
+}
