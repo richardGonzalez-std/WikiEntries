@@ -25,11 +25,11 @@ Edit Entry
     <form action="{% url 'add' %}" method="POST">
         {% csrf_token %}
         
-        <h1 align="center">TITLE</h1>
-        <input align="center" type="text" name="title" required>
+        <h1 >TITLE</h1>
+        <input  type="text" name="title" required>
         <br><br>
 
-        <h1 align="center">CONTENT</h1>
+        <h1>CONTENT</h1>
         <textarea name="content" cols="60" rows="10" required></textarea>
         <br><br>
 
